@@ -1,0 +1,37 @@
+/* Reset and base styles */
+html, body {
+  background-color: #fff !important;
+  width: 100%;            
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;      
+}
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  box-shadow: 0 0 0px 1000px #fff inset !important;
+  background-color: #fff !important;
+  color: #333 !important; /
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: #333 !important;
+  border: none !important;
+}
+
+
+#root {
+  margin: 0 auto;
+  padding: 0;         
+  max-width: 100%;     
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI';
+
+}
